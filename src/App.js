@@ -1,10 +1,17 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/navbar';
+import Rockets from './components/Rockets';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hi</h1>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Rockets />} />
+      </Routes>
+    </>
   );
 }
 
