@@ -19,9 +19,9 @@
   gap: 5px;
 }
 
-.icon {
-  font-size: 3rem;
-  margin-top: 5px;
+.logo-image {
+  width: 3rem;
+  height: 3rem;
 }
 
 .options-continer {

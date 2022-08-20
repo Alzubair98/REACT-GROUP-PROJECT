@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { GiSpaceShuttle } from 'react-icons/gi';
 
 const Navbar = () => {
   const links = [
@@ -24,7 +23,7 @@ const Navbar = () => {
   return (
     <nav className="Nav-bar">
       <div className="icon-continer">
-        <img src="../images/planet.png" alt="icon-img" />
+        <img src="https://cdn-icons-png.flaticon.com/512/3212/3212567.png" className="logo-image" alt="logo-img" />
         <h1 className="nav-text">Space Tracelers&apos; Hub</h1>
       </div>
 
