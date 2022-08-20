@@ -24,11 +24,11 @@ const Navbar = () => {
   return (
     <nav className="Nav-bar">
       <div className="icon-continer">
-        <img src="../images/planet.png" />
+        <img src="../images/planet.png" alt="icon-img" />
         <GiSpaceShuttle className="icon" />
         <h1 className="nav-text">Space Tracelers&apos; Hub</h1>
       </div>
-      
+
       <div className="options-continer">
         {links.map((link) => (
           <li key={link.id}>
