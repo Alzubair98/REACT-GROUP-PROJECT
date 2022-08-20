@@ -25,7 +25,6 @@ const Navbar = () => {
     <nav className="Nav-bar">
       <div className="icon-continer">
         <img src="../images/planet.png" alt="icon-img" />
-        <GiSpaceShuttle className="icon" />
         <h1 className="nav-text">Space Tracelers&apos; Hub</h1>
       </div>
 
