@@ -96,19 +96,18 @@
   width: 150px;
 }
 
-
-.profile-cont{
+.profile-cont {
   display: flex;
   gap: 5rem;
 }
 
-.rockets-profile{
+.rockets-profile {
   display: flex;
   flex-direction: column;
   width: 40%;
 }
 
-.profile-card{
+.profile-card {
   border: solid;
   border-width: 1px;
   border-color: #a2a2a2;
