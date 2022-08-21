@@ -1,10 +1,22 @@
-import React from "react";
+import React from 'react';
+import propTypes from 'prop-types';
 
+const ProfileCard = (props) => {
+  const { name } = props;
 
-const ProfileCard = () => (
+  return (
     <div className="profile-card">
-        Hello
+      <h3>{name}</h3>
     </div>
-)
+  );
+};
 
 export default ProfileCard;
+
+ProfileCard.propTypes = {
+  name: propTypes.string,
+};
+
+ProfileCard.defaultProps = {
+  name: 'default',
+};
