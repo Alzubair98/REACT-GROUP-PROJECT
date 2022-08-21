@@ -17,9 +17,11 @@ const Rockets = () => {
         {state.map((rocket) => (
           <RocketCard
             key={rocket.id}
+            id={rocket.id}
             name={rocket.name}
             src={rocket.img}
             desc={rocket.description}
+            value={rocket.value}
           />
         ))}
 
