@@ -1,10 +1,9 @@
-import React from "react";
-
+import React from 'react';
 
 const ProfileCard = () => (
-    <div className="profile-card">
-        Hello
-    </div>
-)
+  <div className="profile-card">
+    Hello
+  </div>
+);
 
 export default ProfileCard;
