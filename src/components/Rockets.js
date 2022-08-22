@@ -4,11 +4,6 @@ import RocketCard from './RocketCard';
 
 const Rockets = () => {
   const state = useSelector((state) => state.storeSlice);
-  // const dispatch = useDispatch();
-
-  // useEffect(() => {
-  //   dispatch(loadRockets());
-  // }, []);
 
   return (
     <>
