@@ -1,6 +1,5 @@
 .Nav-bar {
   display: flex;
-  flex-direction: row;
   gap: 20px;
   padding: 0.5em 0 0.5em 4rem;
   border: 1px solid #a2a2a2;
@@ -94,5 +93,24 @@
   height: 30px;
   border-radius: 5px;
   width: 150px;
+}
+
+
+.profile-cont {
+  display: flex;
+  gap: 5rem;
+}
+
+.rockets-profile {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.profile-card {
+  border: solid;
+  border-width: 1px;
+  border-color: #a2a2a2;
+  padding-left: 10px;
 }
 

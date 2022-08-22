@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rockets & Profile renderer test match snapshot for Rockets 1`] = `<div />`;
+
+exports[`Rockets & Profile renderer test match snapshot for the Profile 1`] = `
+<div
+  className="profile-cont"
+>
+  <div>
+    mission
+  </div>
+  <div
+    className="rockets-profile"
+  >
+    <h1>
+      My Rockets
+    </h1>
+  </div>
+</div>
+`;
