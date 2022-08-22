@@ -95,6 +95,7 @@
   width: 150px;
 }
 
+
 .profile-cont {
   display: flex;
   gap: 5rem;
@@ -112,3 +113,4 @@
   border-color: #a2a2a2;
   padding-left: 10px;
 }
+
