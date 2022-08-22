@@ -43,6 +43,12 @@
   gap: 10px;
 }
 
+.text-continer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .image {
   height: 150px;
   width: 150px;
@@ -55,4 +61,28 @@
   height: 30px;
   border-radius: 5px;
   width: 150px;
+}
+
+.rocket-name {
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph-cont {
+  display: flex;
+  gap: 5px;
+  margin: 5px 0 5px 0;
+}
+
+.reserved-button {
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  border: none;
+  background-color: #54bab9;
+  color: #f4f4f4;
+}
+
+.rocket-des {
+  margin: 0;
+  padding: 0;
 }
