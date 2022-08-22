@@ -21,4 +21,3 @@ ProfileCard.propTypes = {
 ProfileCard.defaultProps = {
   name: 'default',
 };
-
