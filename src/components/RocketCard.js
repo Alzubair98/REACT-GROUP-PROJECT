@@ -30,7 +30,8 @@ const RocketCard = (props) => {
             {desc}
           </p>
         </div>
-        <button id={id} onClick={handler} className="card-button" type="button">Reserve Rocket</button>
+        {!value && <button id={id} onClick={handler} className="card-button" type="button">Reserve Rocket</button> }
+        {value && <button id={id} onClick={handler} className="cancel-button" type="button">Cancel Reservation</button>}
       </div>
     </div>
   );

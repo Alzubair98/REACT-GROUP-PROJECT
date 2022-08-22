@@ -32,7 +32,7 @@
 }
 
 .Nav-bar-element {
-  color: #34495e;
+  color: #277bc0;
   cursor: pointer;
   text-decoration: none;
 }
@@ -86,3 +86,13 @@
   margin: 0;
   padding: 0;
 }
+
+.cancel-button {
+  color: #a2a2a2;
+  background-color: #f4f4f4;
+  border-color: #a2a2a2;
+  height: 30px;
+  border-radius: 5px;
+  width: 150px;
+}
+
