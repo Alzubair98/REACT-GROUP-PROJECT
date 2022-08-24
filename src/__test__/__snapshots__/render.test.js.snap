@@ -1,20 +1,58 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Rockets & Profile renderer test match snapshot for Rockets 1`] = `<div />`;
+exports[`Space App components rendering test match snapshot for Rockets 1`] = `<div />`;
 
-exports[`Rockets & Profile renderer test match snapshot for the Profile 1`] = `
+exports[`Space App components rendering test match snapshot for the Missions 1`] = `
+<div
+  className="main-sec"
+>
+  <table
+    id="missions-table"
+  >
+    <thead>
+      <tr>
+        <th
+          id="mission-col"
+        >
+          Mission
+        </th>
+        <th
+          id="description-col"
+        >
+          Description
+        </th>
+        <th
+          id="status-col"
+        >
+          Status
+        </th>
+        <th>
+           
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
+
+exports[`Space App components rendering test match snapshot for the Profile 1`] = `
 <div
   className="profile-cont"
 >
-  <div>
-    mission
+  <div
+    className="user-reserved"
+  >
+    <h2>
+      My Missions
+    </h2>
   </div>
   <div
-    className="rockets-profile"
+    className="user-reserved"
   >
-    <h1>
+    <h2>
       My Rockets
-    </h1>
+    </h2>
   </div>
 </div>
 `;
