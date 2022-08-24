@@ -131,6 +131,17 @@ body {
   width: 50%;
 }
 
+.user-reserved h2 {
+  display: flex;
+  gap: 1rem;
+}
+
+#empty-msg {
+  display: flex;
+  font-weight: 600;
+  font-style: italic;
+}
+
 .profile-card {
   display: flex;
   justify-content: space-between;
