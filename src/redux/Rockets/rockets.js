@@ -8,7 +8,6 @@ const url = 'https://api.spacexdata.com/v3/rockets';
 export const loadRockets = createAsyncThunk(LOADING, async () => {
   const response = await axios.get(url);
   const res = response.data;
-  console.log(res)
   const data = res.map((item) => ({
     id: item.id,
     name: item.rocket_name,

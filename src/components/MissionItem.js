@@ -14,7 +14,10 @@ const MissionItem = (props) => {
   return (
     <>
       <td className="mission-name">{mission.mission_name}</td>
-      <td className="mission-desc">{mission.description}<span><a href={mission.more}>See more.</a></span></td>
+      <td className="mission-desc">
+        {mission.description}
+        <span><a href={mission.more}>See more.</a></span>
+      </td>
       <td className="t-align-center">
         {!mission.status && <span className="active-badge">NOT A MEMBER</span>}
         {mission.status && <span className="inactive-badge">Active Member</span>}
@@ -33,6 +36,7 @@ MissionItem.propTypes = {
     description: PropTypes.string,
     status: PropTypes.bool,
     mission_id: PropTypes.string,
+    more: PropTypes.string,
   }).isRequired,
 };
 

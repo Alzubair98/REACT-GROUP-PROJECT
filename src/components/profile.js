@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
-import ProfileCard from "./profileCard";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import ProfileCard from './profileCard';
 
 const Profile = () => {
   const rockets = useSelector((state) => state.storeSlice);
@@ -13,7 +13,8 @@ const Profile = () => {
     <div className="profile-cont">
       <div className="user-reserved">
         <h2>
-          My Missions<span>&#128377;</span>
+          My Missions
+          <span>&#128377;</span>
         </h2>
         {joinedMissions.length === 0 ? (
           <>
@@ -43,7 +44,9 @@ const Profile = () => {
 
       <div className="user-reserved">
         <h2>
-          My Rockets <span>&#128640;</span>
+          My Rockets
+          {' '}
+          <span>&#128640;</span>
         </h2>
         {reservedRockets.length === 0 ? (
           <>

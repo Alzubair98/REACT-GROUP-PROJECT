@@ -6,7 +6,7 @@ import { rocketAction } from '../redux/Rockets/rockets';
 
 const ProfileCard = (props) => {
   const {
-    name, id, className, text, link
+    name, id, className, text, link,
   } = props;
 
   const dispatch = useDispatch();
@@ -32,7 +32,10 @@ const ProfileCard = (props) => {
         >
           {text}
         </button>
-        <a className="learn-more" href={link}>Learn more <span className="arrow-more">&#10145;</span></a>
+        <a className="learn-more" href={link}>
+          Learn more
+          <span className="arrow-more">&#10145;</span>
+        </a>
       </div>
     </div>
   );
@@ -45,7 +48,7 @@ ProfileCard.propTypes = {
   id: PropTypes.string,
   className: PropTypes.string,
   text: PropTypes.string,
-  link: PropTypes.string
+  link: PropTypes.string,
 }.isRequired;
 
 ProfileCard.defaultProps = {

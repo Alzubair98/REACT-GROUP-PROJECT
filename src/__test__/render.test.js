@@ -2,11 +2,8 @@ import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import Rockets from '../components/Rockets';
-import RocketCard from '../components/RocketCard';
 import Profile from '../components/profile';
-import ProfileCard from '../components/profileCard';
-import Missions from '../components/Missions'
-import MissionItem from '../components/MissionItem'
+import Missions from '../components/Missions';
 import store from '../redux/configureStore';
 
 describe('Space App components rendering test', () => {
@@ -36,5 +33,4 @@ describe('Space App components rendering test', () => {
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });
-
 });
