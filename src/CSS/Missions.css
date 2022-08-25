@@ -10,6 +10,7 @@
   border-collapse: collapse;
   padding: 34px;
   width: 100%;
+  margin: 2rem 0;
 }
 
 #missions-table th {
