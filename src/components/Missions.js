@@ -27,9 +27,7 @@ const Missions = () => {
 
         <tbody>
           {missions.map((mission) => (
-            <tr className="mission-item" key={mission.mission_id}>
-              <MissionItem mission={mission} />
-            </tr>
+            <MissionItem mission={mission} key={mission.mission_id} />
           ))}
         </tbody>
       </table>

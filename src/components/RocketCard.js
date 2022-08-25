@@ -40,17 +40,9 @@ const RocketCard = (props) => {
 export default RocketCard;
 
 RocketCard.propTypes = {
-  name: propTypes.string,
-  desc: propTypes.string,
-  src: propTypes.string,
-  value: propTypes.bool,
-  id: propTypes.number,
-};
-
-RocketCard.defaultProps = {
-  name: 'default',
-  desc: 'Non',
-  src: 'no-img',
-  value: false,
-  id: '0',
+  name: propTypes.string.isRequired,
+  desc: propTypes.string.isRequired,
+  src: propTypes.string.isRequired,
+  value: propTypes.bool.isRequired,
+  id: propTypes.string.isRequired,
 };
