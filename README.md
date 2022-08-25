@@ -37,7 +37,7 @@
 
 ## Live Demo :arrow_forward:
 
-Link will be displayed here soon...
+https://precious-tapioca-7e809f.netlify.app
 
 
 ## Set Up Guide :page_facing_up: 
