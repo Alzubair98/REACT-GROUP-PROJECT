@@ -1,58 +1,1015 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Space App components rendering test match snapshot for Rockets 1`] = `<div />`;
+exports[`Space App components rendering test match snapshot for NavBar 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="Nav-bar"
+      >
+        <div
+          class="icon-continer"
+        >
+          <img
+            alt="logo-img"
+            class="logo-image"
+            src="https://cdn-icons-png.flaticon.com/512/3212/3212567.png"
+          />
+          <h1
+            class="nav-text"
+          >
+            Space Traveler's Hub
+          </h1>
+        </div>
+        <div
+          class="options-continer"
+        >
+          <li>
+            <a
+              aria-current="page"
+              class="Nav-bar-element active"
+              href="/"
+            >
+              Rockets
+            </a>
+          </li>
+          <li>
+            <a
+              class="Nav-bar-element"
+              href="/Missions"
+            >
+              Missions
+            </a>
+          </li>
+          <li>
+            <a
+              class="Nav-bar-element"
+              href="/MyProfile"
+            >
+              My Profile
+            </a>
+          </li>
+        </div>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="Nav-bar"
+    >
+      <div
+        class="icon-continer"
+      >
+        <img
+          alt="logo-img"
+          class="logo-image"
+          src="https://cdn-icons-png.flaticon.com/512/3212/3212567.png"
+        />
+        <h1
+          class="nav-text"
+        >
+          Space Traveler's Hub
+        </h1>
+      </div>
+      <div
+        class="options-continer"
+      >
+        <li>
+          <a
+            aria-current="page"
+            class="Nav-bar-element active"
+            href="/"
+          >
+            Rockets
+          </a>
+        </li>
+        <li>
+          <a
+            class="Nav-bar-element"
+            href="/Missions"
+          >
+            Missions
+          </a>
+        </li>
+        <li>
+          <a
+            class="Nav-bar-element"
+            href="/MyProfile"
+          >
+            My Profile
+          </a>
+        </li>
+      </div>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Space App components rendering test match snapshot for Rocket Card 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="rocket-continer"
+      >
+        <div
+          class="img-continer"
+        >
+          <img
+            alt="roket-img"
+            class="image"
+            src="a link"
+          />
+        </div>
+        <div
+          class="text-continer"
+        >
+          <h1
+            class="rocket-name"
+          >
+            Rocket 1
+          </h1>
+          <div
+            class="paragraph-cont"
+          >
+            <p
+              class="rocket-des"
+            >
+               
+              <span
+                class="reserved-button"
+                style="display: none;"
+              >
+                Reserved
+              </span>
+               
+              This is the description for mission 1
+            </p>
+          </div>
+          <button
+            class="card-button"
+            id="Rocket 1"
+            type="button"
+          >
+            Reserve Rocket
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="rocket-continer"
+    >
+      <div
+        class="img-continer"
+      >
+        <img
+          alt="roket-img"
+          class="image"
+          src="a link"
+        />
+      </div>
+      <div
+        class="text-continer"
+      >
+        <h1
+          class="rocket-name"
+        >
+          Rocket 1
+        </h1>
+        <div
+          class="paragraph-cont"
+        >
+          <p
+            class="rocket-des"
+          >
+             
+            <span
+              class="reserved-button"
+              style="display: none;"
+            >
+              Reserved
+            </span>
+             
+            This is the description for mission 1
+          </p>
+        </div>
+        <button
+          class="card-button"
+          id="Rocket 1"
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Space App components rendering test match snapshot for Rockets 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div />
+    </div>
+  </body>,
+  "container": <div>
+    <div />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Space App components rendering test match snapshot for the Footer 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <footer
+        id="footer"
+      >
+        <p>
+          Karla Delgado & Alzubair Alqaraghuli © 2022 All rights reserved.
+        </p>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <footer
+      id="footer"
+    >
+      <p>
+        Karla Delgado & Alzubair Alqaraghuli © 2022 All rights reserved.
+      </p>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Space App components rendering test match snapshot for the Mission Item 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <tr
+        class="mission-item"
+      >
+        <td
+          class="mission-name"
+        >
+          Mission 1
+        </td>
+        <td
+          class="mission-desc"
+        >
+          This is the description for mission 1
+          <span>
+            <a
+              href="A link"
+            >
+              See more.
+            </a>
+          </span>
+        </td>
+        <td
+          class="t-align-center"
+        >
+          <span
+            class="active-badge"
+          >
+            NOT A MEMBER
+          </span>
+        </td>
+        <td
+          class="t-align-center"
+        >
+          <button
+            class="join-btn"
+            type="button"
+          >
+            Join Mission
+          </button>
+        </td>
+      </tr>
+    </div>
+  </body>,
+  "container": <div>
+    <tr
+      class="mission-item"
+    >
+      <td
+        class="mission-name"
+      >
+        Mission 1
+      </td>
+      <td
+        class="mission-desc"
+      >
+        This is the description for mission 1
+        <span>
+          <a
+            href="A link"
+          >
+            See more.
+          </a>
+        </span>
+      </td>
+      <td
+        class="t-align-center"
+      >
+        <span
+          class="active-badge"
+        >
+          NOT A MEMBER
+        </span>
+      </td>
+      <td
+        class="t-align-center"
+      >
+        <button
+          class="join-btn"
+          type="button"
+        >
+          Join Mission
+        </button>
+      </td>
+    </tr>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
 
 exports[`Space App components rendering test match snapshot for the Missions 1`] = `
-<div
-  className="main-sec"
->
-  <table
-    id="missions-table"
-  >
-    <thead>
-      <tr>
-        <th
-          id="mission-col"
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="main-sec"
+      >
+        <table
+          id="missions-table"
         >
-          Mission
-        </th>
-        <th
-          id="description-col"
-        >
-          Description
-        </th>
-        <th
-          id="status-col"
-        >
-          Status
-        </th>
-        <th>
-           
-        </th>
-      </tr>
-    </thead>
-    <tbody />
-  </table>
-</div>
+          <thead>
+            <tr>
+              <th
+                id="mission-col"
+              >
+                Mission
+              </th>
+              <th
+                id="description-col"
+              >
+                Description
+              </th>
+              <th
+                id="status-col"
+              >
+                Status
+              </th>
+              <th>
+                 
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="main-sec"
+    >
+      <table
+        id="missions-table"
+      >
+        <thead>
+          <tr>
+            <th
+              id="mission-col"
+            >
+              Mission
+            </th>
+            <th
+              id="description-col"
+            >
+              Description
+            </th>
+            <th
+              id="status-col"
+            >
+              Status
+            </th>
+            <th>
+               
+            </th>
+          </tr>
+        </thead>
+        <tbody />
+      </table>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Space App components rendering test match snapshot for the Profile 1`] = `
-<div
-  className="profile-cont"
->
-  <div
-    className="user-reserved"
-  >
-    <h2>
-      My Missions
-    </h2>
-  </div>
-  <div
-    className="user-reserved"
-  >
-    <h2>
-      My Rockets
-    </h2>
-  </div>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="profile-cont"
+      >
+        <div
+          class="user-reserved"
+        >
+          <h2>
+            My Missions
+            <span>
+              🕹
+            </span>
+          </h2>
+          <div
+            id="empty-msg"
+          >
+            <span>
+              No missions joined
+            </span>
+          </div>
+          <a
+            href="/Missions"
+          >
+            <button
+              class="join-reserv-profile"
+              type="button"
+            >
+              Join a Mission
+            </button>
+          </a>
+        </div>
+        <div
+          class="user-reserved"
+        >
+          <h2>
+            My Rockets
+             
+            <span>
+              🚀
+            </span>
+          </h2>
+          <div
+            id="empty-msg"
+          >
+            <span>
+              No rockets reserved
+            </span>
+          </div>
+          <a
+            href="/"
+          >
+            <button
+              class="join-reserv-profile"
+              type="button"
+            >
+              Reserve a rocket
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="profile-cont"
+    >
+      <div
+        class="user-reserved"
+      >
+        <h2>
+          My Missions
+          <span>
+            🕹
+          </span>
+        </h2>
+        <div
+          id="empty-msg"
+        >
+          <span>
+            No missions joined
+          </span>
+        </div>
+        <a
+          href="/Missions"
+        >
+          <button
+            class="join-reserv-profile"
+            type="button"
+          >
+            Join a Mission
+          </button>
+        </a>
+      </div>
+      <div
+        class="user-reserved"
+      >
+        <h2>
+          My Rockets
+           
+          <span>
+            🚀
+          </span>
+        </h2>
+        <div
+          id="empty-msg"
+        >
+          <span>
+            No rockets reserved
+          </span>
+        </div>
+        <a
+          href="/"
+        >
+          <button
+            class="join-reserv-profile"
+            type="button"
+          >
+            Reserve a rocket
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Space App components rendering test match snapshot for the Profile List 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="profile-card"
+      >
+        <h3>
+          default
+        </h3>
+        <div
+          class="btn-container"
+        >
+          <button
+            type="button"
+          />
+          <a
+            class="learn-more"
+          >
+            Learn more
+            <span
+              class="arrow-more"
+            >
+              ➡
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="profile-card"
+    >
+      <h3>
+        default
+      </h3>
+      <div
+        class="btn-container"
+      >
+        <button
+          type="button"
+        />
+        <a
+          class="learn-more"
+        >
+          Learn more
+          <span
+            class="arrow-more"
+          >
+            ➡
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

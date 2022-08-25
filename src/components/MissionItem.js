@@ -12,7 +12,7 @@ const MissionItem = (props) => {
   };
 
   return (
-    <>
+    <tr className="mission-item">
       <td className="mission-name">{mission.mission_name}</td>
       <td className="mission-desc">
         {mission.description}
@@ -26,7 +26,7 @@ const MissionItem = (props) => {
         {!mission.status && <button id={mission.mission_id} onClick={handleClick} className="join-btn" type="button">Join Mission</button> }
         {mission.status && <button id={mission.mission_id} onClick={handleClick} className="leave-btn" type="button">Leave Mission</button>}
       </td>
-    </>
+    </tr>
   );
 };
 

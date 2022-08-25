@@ -9,7 +9,7 @@ export const loadRockets = createAsyncThunk(LOADING, async () => {
   const response = await axios.get(url);
   const res = response.data;
   const data = res.map((item) => ({
-    id: item.id,
+    id: item.rocket_id,
     name: item.rocket_name,
     description: item.description,
     img: item.flickr_images[0],
@@ -20,7 +20,7 @@ export const loadRockets = createAsyncThunk(LOADING, async () => {
 });
 
 const storeSlice = createSlice({
-  name: 'space Hup',
+  name: 'space Hub',
   initialState: [],
   reducers: {
     rocketReserve(state, action) {
