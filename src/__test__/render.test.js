@@ -37,10 +37,10 @@ describe('Space App components rendering test', () => {
 
   it('match snapshot for Rocket Card', () => {
     const rocket = {
-      id: "Rocket 1",
+      id: 'Rocket 1',
       name: 'Rocket 1',
       description: 'This is the description for mission 1',
-      img: "a link",
+      img: 'a link',
       value: false,
     };
 
@@ -48,12 +48,13 @@ describe('Space App components rendering test', () => {
       <BrowserRouter>
         <Provider store={store}>
           <RocketCard
-          key={rocket.id}
-          id={rocket.id}
-          name={rocket.name}
-          src={rocket.img}
-          desc={rocket.description}
-          value={rocket.value}/>
+            key={rocket.id}
+            id={rocket.id}
+            name={rocket.name}
+            src={rocket.img}
+            desc={rocket.description}
+            value={rocket.value}
+          />
         </Provider>
       </BrowserRouter>,
     );
