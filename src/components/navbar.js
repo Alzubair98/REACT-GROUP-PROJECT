@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className="Nav-bar">
       <div className="icon-continer">
         <img src="https://cdn-icons-png.flaticon.com/512/3212/3212567.png" className="logo-image" alt="logo-img" />
-        <h1 className="nav-text">Space Tracelers&apos; Hub</h1>
+        <h1 className="nav-text">Space Traveler&apos;s Hub</h1>
       </div>
 
       <div className="options-continer">
