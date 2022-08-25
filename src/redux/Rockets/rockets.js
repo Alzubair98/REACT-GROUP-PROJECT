@@ -13,6 +13,7 @@ export const loadRockets = createAsyncThunk(LOADING, async () => {
     name: item.rocket_name,
     description: item.description,
     img: item.flickr_images[0],
+    more: item.wikipedia,
     value: false,
   }));
   return data;

@@ -6,6 +6,7 @@ import Rockets from './components/Rockets';
 import Profile from './components/profile';
 import { loadRockets } from './redux/Rockets/rockets';
 import './App.css';
+import Missions from './components/Missions';
 
 function App() {
   const dispatch = useDispatch();
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Rockets />} />
         <Route path="/MyProfile" element={<Profile />} />
+        <Route path="/Missions" element={<Missions />} />
       </Routes>
     </>
   );

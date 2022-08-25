@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
 .Nav-bar {
   display: flex;
   gap: 20px;
@@ -15,7 +29,9 @@
 
 .icon-continer {
   display: flex;
-  gap: 5px;
+  font-family: 'Michroma', sans-serif;
+  gap: 1.5rem;
+  align-items: center;
 }
 
 .logo-image {
@@ -31,9 +47,15 @@
 }
 
 .Nav-bar-element {
-  color: #277bc0;
+  color: #000;
+  font-weight: 600;
   cursor: pointer;
   text-decoration: none;
+}
+
+.Nav-bar-element:hover,
+.Nav-bar-element.active {
+  color: #277bc0;
 }
 
 .rocket-continer {
@@ -95,22 +117,75 @@
   width: 150px;
 }
 
-
 .profile-cont {
   display: flex;
   gap: 5rem;
+  width: 90%;
+  justify-content: center;
+  align-self: center;
 }
 
-.rockets-profile {
+.user-reserved {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
+  font-size: 1rem;
+}
+
+.user-reserved h2 {
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+#empty-msg {
+  display: flex;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.join-reserv-profile {
+  margin-top: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.5rem;
+  color: #ffff;
+  border: none;
+  border-radius: 3px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #00b5b8;
 }
 
 .profile-card {
+  display: flex;
+  justify-content: space-between;
   border: solid;
   border-width: 1px;
   border-color: #a2a2a2;
-  padding-left: 10px;
+  padding: 1rem;
 }
 
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn-more {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  color: #277bc0;
+}
+
+.arrow-more {
+  font-size: 1.5rem;
+}
