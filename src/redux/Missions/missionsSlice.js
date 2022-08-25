@@ -37,6 +37,7 @@ export const missionsSlice = createSlice({
           mission_id: mission.mission_id,
           mission_name: mission.mission_name,
           description: mission.description,
+          more: mission.wikipedia,
           status: false,
         }),
       ));

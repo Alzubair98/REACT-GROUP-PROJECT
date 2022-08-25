@@ -59,6 +59,14 @@ tbody tr:nth-child(odd) {
   line-height: 1.5rem;
 }
 
+.mission-desc span a {
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  color: #00b5b8;
+}
+
 .join-btn,
 .leave-btn {
   padding: 0.5rem;
