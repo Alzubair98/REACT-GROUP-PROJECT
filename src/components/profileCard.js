@@ -1,12 +1,12 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import { joinMissions } from '../redux/Missions/missionsSlice';
 import { rocketAction } from '../redux/Rockets/rockets';
 
 const ProfileCard = (props) => {
   const {
-    name, id, className, text,
+    name, id, className, text, link
   } = props;
 
   const dispatch = useDispatch();
@@ -32,6 +32,7 @@ const ProfileCard = (props) => {
         >
           {text}
         </button>
+        <a className="learn-more" href={link}>Learn more <span className="arrow-more">&#10145;</span></a>
       </div>
     </div>
   );
@@ -40,10 +41,11 @@ const ProfileCard = (props) => {
 export default ProfileCard;
 
 ProfileCard.propTypes = {
-  name: propTypes.string,
-  id: propTypes.string,
-  className: propTypes.string,
-  text: propTypes.string,
+  name: PropTypes.string,
+  id: PropTypes.string,
+  className: PropTypes.string,
+  text: PropTypes.string,
+  link: PropTypes.string
 }.isRequired;
 
 ProfileCard.defaultProps = {

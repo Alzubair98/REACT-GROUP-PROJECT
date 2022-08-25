@@ -129,17 +129,33 @@ body {
   display: flex;
   flex-direction: column;
   width: 50%;
+  font-size: 1rem;
 }
 
 .user-reserved h2 {
   display: flex;
   gap: 1rem;
+  font-size: 2rem;
 }
 
 #empty-msg {
   display: flex;
   font-weight: 600;
   font-style: italic;
+}
+
+.join-reserv-profile {
+  margin-top: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.5rem;
+  color: #ffff;
+  border: none;
+  border-radius: 3px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #00b5b8;
 }
 
 .profile-card {
@@ -153,6 +169,23 @@ body {
 
 .btn-container {
   display: flex;
+  flex-direction: column;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
+}
+
+.learn-more {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  color: #277bc0;
+}
+
+.arrow-more {
+  font-size: 1.5rem;
 }
