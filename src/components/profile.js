@@ -64,6 +64,7 @@ const Profile = () => {
               name={rocket.name}
               className="cancel-button"
               text="Cancel Reservation"
+              link={rocket.more}
             />
           ))
         )}
