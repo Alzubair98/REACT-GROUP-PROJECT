@@ -25,7 +25,7 @@ const storeSlice = createSlice({
   reducers: {
     rocketReserve(state, action) {
       const newState = state.map((rocket) => {
-        if (rocket.id === Number(action.payload.id)) {
+        if (rocket.id === action.payload.id) {
           return {
             ...rocket,
             value: !rocket.value,
