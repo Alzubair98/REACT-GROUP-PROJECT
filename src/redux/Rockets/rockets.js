@@ -19,7 +19,7 @@ export const loadRockets = createAsyncThunk(LOADING, async () => {
   return data;
 });
 
-const storeSlice = createSlice({
+export const storeSlice = createSlice({
   name: 'space Hub',
   initialState: [],
   reducers: {
