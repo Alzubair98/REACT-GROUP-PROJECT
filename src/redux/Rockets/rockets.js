@@ -19,13 +19,13 @@ export const loadRockets = createAsyncThunk(LOADING, async () => {
   return data;
 });
 
-const storeSlice = createSlice({
+export const storeSlice = createSlice({
   name: 'space Hub',
   initialState: [],
   reducers: {
     rocketReserve(state, action) {
       const newState = state.map((rocket) => {
-        if (rocket.id === Number(action.payload.id)) {
+        if (rocket.id === action.payload.id) {
           return {
             ...rocket,
             value: !rocket.value,
