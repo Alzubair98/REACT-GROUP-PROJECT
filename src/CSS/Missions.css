@@ -1,0 +1,95 @@
+.main-sec {
+  display: flex;
+  justify-content: center;
+  width: 98%;
+  align-self: center;
+}
+
+#missions-table {
+  border: 2px solid #dedede;
+  border-collapse: collapse;
+  padding: 34px;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+#missions-table th {
+  border: 2px solid #dedede;
+  padding: 0.5rem;
+  text-align: left;
+  background: #ffff;
+  color: #313030;
+}
+
+#description-col {
+  width: 60%;
+}
+
+#mission-col {
+  width: 10%;
+}
+
+#status-col {
+  width: 15%;
+  text-align: center;
+}
+
+#missions-table td {
+  border: 2px solid #dedede;
+  padding: 0.5rem 0.8rem 1rem;
+  color: #313030;
+}
+
+tbody tr {
+  background-color: #ffff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.t-align-center {
+  text-align: center;
+}
+
+.mission-name {
+  font-weight: 600;
+}
+
+.mission-desc {
+  line-height: 1.5rem;
+}
+
+.mission-desc span a {
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  color: #00b5b8;
+}
+
+.join-btn,
+.leave-btn {
+  padding: 0.5rem;
+  border: 2px solid #5e6164e2;
+  color: #5e6164e2;
+  border-radius: 3px;
+}
+
+.leave-btn {
+  border: 2px solid #dc3645;
+  color: #dc3645;
+}
+
+.active-badge,
+.inactive-badge {
+  padding: 0.3rem;
+  background-color: #46494d;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.inactive-badge {
+  background-color: #00b5b8;
+}
